@@ -1,0 +1,36 @@
+body
+{
+	background-color: rgba(0,0,0,0.1);
+
+}
+
+
+.card {
+  width: 340px; /*1*/
+  margin: 0px auto; /*2*/
+  background-color: white; /*3*/
+  box-shadow: 0.5px 2px 2px 3px rgba(0,0,0,0.2), 2px 0px 2px 3px rgba(0,0,0,0.19); /*4*/
+  border: 6px white solid;
+  text-align: left;
+  border-radius: 5px;
+}
+.card a { /*5*/
+  color: #333; 
+  text-decoration: none;
+}
+.rating 
+{
+    direction: rtl;
+}
+ .rating a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 1.5em;
+ }
+ .rating a:hover,
+ .rating a:focus,
+ .rating a:hover ~ a,
+ .rating a:focus ~ a {
+    color: orange;
+    cursor: pointer;
+ }
